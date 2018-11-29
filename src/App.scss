@@ -30,6 +30,9 @@
         .tab{
             line-height:44px;
             text-align:center;
+                &.active{
+                    color:red;
+                }
         }
 
     }
