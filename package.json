@@ -27,5 +27,6 @@
   ],
   "devDependencies": {
     "node-sass": "^4.10.0"
-  }
+  },
+  "proxy":"https://voice.baidu.com"
 }
