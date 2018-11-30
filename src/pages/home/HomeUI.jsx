@@ -13,10 +13,12 @@ export default function HomeUI(props){
              </Header>
             <div className="page" id="home">
                 <nav className="h_tabs">
-                    <li>推荐</li>
-                    <li>分类</li>
-                    <li>榜单</li>
+                    <NavLink to="/home/recommen">推荐</NavLink>
+                    <NavLink to="/home/find">分类</NavLink>
+                    <NavLink to="/home/list">榜单</NavLink>
                 </nav>
+                {/* <div className="homeui find"></div> */}
+                {/* <div className="homeui list"></div> */}
             </div>
         </div>
         
